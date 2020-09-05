@@ -8,7 +8,6 @@ function App() {
         <div className="app-name">
             Park Tour
         </div>
-
       </header>
     </div>
   );

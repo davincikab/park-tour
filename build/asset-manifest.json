@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/park-tour/static/css/main.43b4d8dd.chunk.css",
+    "main.js": "/park-tour/static/js/main.33467c8e.chunk.js",
+    "main.js.map": "/park-tour/static/js/main.33467c8e.chunk.js.map",
+    "runtime-main.js": "/park-tour/static/js/runtime-main.5c1edfb5.js",
+    "runtime-main.js.map": "/park-tour/static/js/runtime-main.5c1edfb5.js.map",
+    "static/js/2.c10d63f7.chunk.js": "/park-tour/static/js/2.c10d63f7.chunk.js",
+    "static/js/2.c10d63f7.chunk.js.map": "/park-tour/static/js/2.c10d63f7.chunk.js.map",
+    "index.html": "/park-tour/index.html",
+    "precache-manifest.cba1425997a948856dac37bcc31e5188.js": "/park-tour/precache-manifest.cba1425997a948856dac37bcc31e5188.js",
+    "service-worker.js": "/park-tour/service-worker.js",
+    "static/css/main.43b4d8dd.chunk.css.map": "/park-tour/static/css/main.43b4d8dd.chunk.css.map",
+    "static/js/2.c10d63f7.chunk.js.LICENSE.txt": "/park-tour/static/js/2.c10d63f7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5c1edfb5.js",
+    "static/js/2.c10d63f7.chunk.js",
+    "static/css/main.43b4d8dd.chunk.css",
+    "static/js/main.33467c8e.chunk.js"
+  ]
+}
