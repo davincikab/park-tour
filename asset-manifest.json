@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/park-tour/static/css/main.5f361e03.chunk.css",
-    "main.js": "/park-tour/static/js/main.a204e4eb.chunk.js",
-    "main.js.map": "/park-tour/static/js/main.a204e4eb.chunk.js.map",
+    "main.css": "/park-tour/static/css/main.9c7d6164.chunk.css",
+    "main.js": "/park-tour/static/js/main.cc243a9d.chunk.js",
+    "main.js.map": "/park-tour/static/js/main.cc243a9d.chunk.js.map",
     "runtime-main.js": "/park-tour/static/js/runtime-main.5c1edfb5.js",
     "runtime-main.js.map": "/park-tour/static/js/runtime-main.5c1edfb5.js.map",
-    "static/js/2.208dfbd7.chunk.js": "/park-tour/static/js/2.208dfbd7.chunk.js",
-    "static/js/2.208dfbd7.chunk.js.map": "/park-tour/static/js/2.208dfbd7.chunk.js.map",
+    "static/js/2.23f79db9.chunk.js": "/park-tour/static/js/2.23f79db9.chunk.js",
+    "static/js/2.23f79db9.chunk.js.map": "/park-tour/static/js/2.23f79db9.chunk.js.map",
     "index.html": "/park-tour/index.html",
-    "precache-manifest.50e2589a1c981bf254a3aba6f76edb39.js": "/park-tour/precache-manifest.50e2589a1c981bf254a3aba6f76edb39.js",
+    "precache-manifest.120eb04c1d8515aaf626be05d644bbfd.js": "/park-tour/precache-manifest.120eb04c1d8515aaf626be05d644bbfd.js",
     "service-worker.js": "/park-tour/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/park-tour/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.208dfbd7.chunk.js.LICENSE.txt": "/park-tour/static/js/2.208dfbd7.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/park-tour/static/media/logo.5d5d9eef.svg"
+    "static/css/main.9c7d6164.chunk.css.map": "/park-tour/static/css/main.9c7d6164.chunk.css.map",
+    "static/js/2.23f79db9.chunk.js.LICENSE.txt": "/park-tour/static/js/2.23f79db9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.5c1edfb5.js",
-    "static/js/2.208dfbd7.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.a204e4eb.chunk.js"
+    "static/js/2.23f79db9.chunk.js",
+    "static/css/main.9c7d6164.chunk.css",
+    "static/js/main.cc243a9d.chunk.js"
   ]
 }
