@@ -7,6 +7,26 @@
   pointer-events: none;
 }
 
+.app-name {
+  border:2px solid #61DAFB;
+  color:#61DAFB;
+  font-size: 1.5rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding: 1em 1.5em;
+  transition: all .3s;
+}
+
+.app-name:hover {
+  border-width: 0px;
+  background-color: #61DAFB;
+  color: #3e4450;
+  border-top-left-radius: 0.9em;
+  border-top-right-radius: 2em;
+  border-bottom-left-radius: 1.8em;
+  border-bottom-right-radius: 2em;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
