@@ -10,9 +10,11 @@ import pts from './assets/pts.json';
 const myIcon = L.divIcon({className: 'custom-icon'});
 function App() {
   const [isMapVisible, setMapVisible] = useState(true);
+  const [isDescriptionVisible, setDesscriptionVisible ] = useState(false);
   const [center, setCenter ] = useState({lat:-1.234, lng:36.987});
   const [zoom, setZoom ] = useState(12);
   const [data, setData] = useState([]);
+  const [description, setDescription] = useState({});
 
   useEffect(() => {
     setData(pts.features);
@@ -23,9 +25,15 @@ function App() {
     setMapVisible(!isMapVisible);
   }
 
+  // toggle description
+  const toggleDescription = (e) => {
+    setDesscriptionVisible(!isDescriptionVisible);
+  }
+
+
   return (
     <div className="App">
-      <header className="App-header">
+      <header className="">
         { !isMapVisible &&
            <div className="app-name" onClick={updateMapState}>
             Park Tour
@@ -48,18 +56,6 @@ function App() {
                   data &&
                   <ListMarkers data={data} />
                 }
-              <Marker
-                position={center}
-                icon={myIcon}
-              >
-                <Popup>
-                  <div className="popup-content">
-                    <img src={sunrise} />
-
-                    <button className="bnt">Go ---</button>
-                  </div>
-                </Popup>
-              </Marker>
            </Map>
            <div className="filter-section">
               <h6 className="filter-title">Filters</h6>
@@ -72,15 +68,17 @@ function App() {
 
            {/* Point description sections */}
 
-           <div className="description-tab">
+           <div className={isDescriptionVisible ? "description-tab" : "description-tab d-none"}>
             <div className="section-intro">
-
+                  {/* Controls */}
+                  <Button className="" text="&minus;"/>
+                  <Button className="" text="&#43;"/>
+                  <Button className="" text="&times;"/>
             </div>
-            <div className="section-intro">
-
+            <div className="section">
+                <h5 className="section-title">Home coming</h5>
             </div>
-            <div className="section-intro">
-
+            <div className="section">
             </div>
            </div>
            </>
@@ -93,7 +91,16 @@ function App() {
 // list markes
 const ListMarkers = (props) => {
   const data = props.data;
-  console.log(data);
+
+  // mouse over event
+    const onMouseOver = (e) => {
+      console.log(e);
+      e.target.openPopup();
+    }
+
+    const onMouseOut = (e) => {
+      e.target.closePopup();
+    }
     return (
         data.map(feature => 
         <Marker
@@ -105,9 +112,9 @@ const ListMarkers = (props) => {
                   key={feature.properties.id}
                 >
                   <div className="popup-content">
-                    <img src={sunrise} />
-
-                    <button className="bnt">Go ---</button>
+                    <img src={require("./assets/" + feature.properties.img)} />
+                    <div className="custom-icon marker-popup"></div>
+                    <button className="bnt">&#8594;</button>
                   </div>
                 </Popup>
               </Marker>
