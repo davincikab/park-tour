@@ -65,7 +65,7 @@
 
 .section-intro {
   position: absolute;
-  top: 0%;
+  top: 1%;
   right:2%;
 }
 
@@ -80,12 +80,20 @@
 .section {
   color:var(--gray);
   text-align: left;
+  padding: 0em 1em;
 }
 
 .section > h5 {
   margin:0.4em 0.5em 0.2em;
   font-size: 1rem;
   font-weight: normal;
+  display: flex;
+  align-items: center;
+}
+
+.section-title .custom-icon{
+  height: 20px;
+  width: 20px;
 }
 
 .filter-section {
@@ -262,6 +270,15 @@
   display: none !important;
 } 
 
+.img {
+  border-radius: 2em;
+  width: 30vw;
+}
+
+.mr-2 {
+  margin-right: 0.75em !important;
+}
+
 @media (min-width:50em) {
   .filter-section .btn-group {
     flex-direction: row;
@@ -277,7 +294,7 @@
     top: 10%;
     left: 1.5%;
     padding: 2px;
-    width: 30vw;
+    width: 460px;
     background-color: white;
     border-radius: 1em;
     box-shadow: 2px 2px 0.3em #a5a5a5;
